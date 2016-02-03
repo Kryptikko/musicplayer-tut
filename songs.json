@@ -1,0 +1,20 @@
+{
+	"song_0":	{
+		"name": "All that she wants",
+		"src": "/songs/all_that_she_wants.mp3",
+		"info": "Lorem ipsum dolor sit amet, ut probo omnes albucius nam, in dolore admodum cotidieque nec. Falli saepe viderer mea id, ubique veritus ut pro, te mea tota tollit. Id diceret percipitur efficiantur sit, vocent expetenda pro at. Ea ornatus urbanitas vel, vis nisl cibo mediocritatem ea. Pri errem verterem honestatis et. Has melius nominavi deleniti at.",
+		"artist": "SIDABITBALL"
+	},
+	"song_1":	{
+		"name": "Dirty Mind",
+		"src": "/songs/dirty_mind.mp3",
+		"info": "Lorem ipsum dolor sit amet, ut probo omnes albucius nam, in dolore admodum cotidieque nec. Falli saepe viderer mea id, ubique veritus ut pro, te mea tota tollit. Id diceret percipitur efficiantur sit, vocent expetenda pro at. Ea ornatus urbanitas vel, vis nisl cibo mediocritatem ea. Pri errem verterem honestatis et. Has melius nominavi deleniti at.",
+		"artist": "SIDABITBALL"
+	},
+	"song_2":	{
+		"name": "Burning",
+		"src": "/songs/burning.mp3",
+		"info": "Lorem ipsum dolor sit amet, ut probo omnes albucius nam, in dolore admodum cotidieque nec. Falli saepe viderer mea id, ubique veritus ut pro, te mea tota tollit. Id diceret percipitur efficiantur sit, vocent expetenda pro at. Ea ornatus urbanitas vel, vis nisl cibo mediocritatem ea. Pri errem verterem honestatis et. Has melius nominavi deleniti at.",
+		"artist": "SIDABITBALL"
+	}
+}
