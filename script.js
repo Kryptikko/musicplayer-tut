@@ -20,6 +20,7 @@ $(document).ready(function() {
 	*/
 	var addSongsToList = function (songList) {
 		var songListEl = $("#song-list");
+		songListEl.empty();
 		$.each(songList, function(key, value){
 			var el = $("<li/>")
 				.html(value.name)
@@ -119,6 +120,7 @@ $(document).ready(function() {
 		$("#song-artist").html(song.artist);
 		$("#song-url").html(song.src);
 		$("#song-description").html(song.info);
+		$("#song-remove").show();
 	}
 
 	/*
@@ -156,4 +158,33 @@ $(document).ready(function() {
 	/*
 	$.getJSON('song.json', function () { .. });
 	 */
+
+	/* code for second session */
+	$("#song-remove").click(function(){
+		var song = $("#song-list .active")[0];
+		if(!song)
+			return false;
+
+		$.ajax({
+			dataType: "json",
+			url: "removesong.php",
+			method: "POST",
+			data: {
+				song_id: song.id
+			}
+		}).success(function(data) {
+			if(!data.success)
+				return false;
+
+			loadContent()
+			displaySongInfo({
+				"name": "",
+				"src": "",
+				"artist": "",
+				"info": ""
+			});
+			$("#song-remove").hide();
+		});
+	});
+	$("#song-remove").hide();
 });
