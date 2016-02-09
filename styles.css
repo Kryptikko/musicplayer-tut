@@ -1,0 +1,11 @@
+#player {
+	width: 100%;
+	margin: 10px 0;
+}
+#song_form {
+	margin: 10px 0;
+}
+
+label:after {
+	content: ":";
+}
