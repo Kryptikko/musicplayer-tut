@@ -1,6 +1,12 @@
+body{
+	color: #333;
+	font-family: "Verdana";
+}
+
 #player {
 	width: 100%;
 	margin: 10px 0;
+	display:block;
 }
 #song_form {
 	margin: 10px 0;
